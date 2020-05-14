@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ <!-- 如下配置用于开启驼峰规则，使得a_colimn可以自动赋值给aColimn -->
+ <settings>
+    <setting name="mapUnderscoreToCamelCase" value="true"/>
+     
+ </settings>
